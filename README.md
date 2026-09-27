@@ -7,54 +7,48 @@
 
 ---
 
-## 🌐 English Description
+<!-- Versión en Español -->
+[![Volver arriba](https://img.shields.io/badge/Volver_arriba-top-blue?style=flat-square)](#)
 
-### 📝 Overview
-This project combines **financial data analysis** with **Robotic Process Automation (RPA)** in Python. The script extracts real-time stock market data, calculates key performance metrics, generates visual trends, and automatically drafts and sends an executive report via Gmail without manual intervention.
+# 📈 Análisis Bursátil y Automatización por Correo (RPA)
 
-### 🎯 Key Features
-1. **Financial Data Extraction:** Downloads historical closing prices for stock tickers (e.g., Apple `AAPL`) using the `yfinance` API.
-2. **Statistical Analysis & Visualization:**
-   * Generates price trend charts using `matplotlib`.
-   * Computes key financial statistics: maximum, minimum, and average closing prices over the selected timeframe.
-3. **Robotic Process Automation (RPA):**
-   * Automates GUI interactions (clicks, keyboard strokes) via `PyAutoGUI`.
-   * Leverages `pyperclip` for secure clipboard buffer handling to prevent encoding errors during text insertion.
-   * Automates browser navigation and dispatches email reports to stakeholders.
-
-### 🛠️ Tech Stack & Libraries
-* **Python 3.x**
-* **`yfinance`**: Financial data retrieval.
-* **`matplotlib`**: Data visualization.
-* **`pyautogui` & `pyperclip`**: Desktop/GUI automation and clipboard control.
-* **`webbrowser` & `time`**: Browser automation and workflow timing control.
+## 📝 Descripción General
+Este proyecto combina **análisis de datos financieros** con **automatización de procesos (RPA)** en Python. El programa extrae datos del mercado bursátil en tiempo real, calcula métricas clave de rendimiento, genera un gráfico de tendencias de las acciones y envía un reporte ejecutivo por correo electrónico de forma 100% automatizada.
 
 ---
 
-## 🌐 Descripción en Español
-
-### 📝 Descripción General
-Este proyecto combina **análisis de datos financieros** con **automatización de procesos (RPA)** en Python. El programa descarga información del mercado bursátil en tiempo real, procesa estadísticas clave sobre el rendimiento de las acciones y genera un reporte que envía por correo electrónico a través del navegador de manera 100% automatizada.
-
-### 🎯 Funcionalidades Clave
-1. **Extracción de Datos Financieros:** Descarga del histórico de precios de cierre para tickers bursátiles (ej. Apple `AAPL`) usando la librería `yfinance`.
+## ⚙️ Funcionalidades Clave
+1. **Extracción de Datos Financieros:** Descarga del histórico de precios para activos bursátiles (ej. Apple) usando la librería `yfinance`.
 2. **Análisis Estadístico y Visualización:**
    * Generación de gráficos de tendencias con `matplotlib`.
-   * Cálculo de métricas clave: precio máximo, mínimo y promedio del periodo.
+   * Cálculo de métricas clave: precios máximos, mínimos y promedios del periodo.
 3. **Automatización RPA:**
-   * Control dinámico de mouse y teclado con `PyAutoGUI`.
-   * Manejo de portapapeles con `pyperclip` para evitar errores de caracteres especiales.
+   * Control de interacciones de mouse y teclado mediante `pyautogui`.
+   * Manejo de portapapeles con `pyperclip` para evitar errores con caracteres especiales.
    * Redacción y envío automático del informe por correo electrónico.
 
 ---
 
-## 🚀 How to Run / Cómo Ejecutar
+## 🛠️ Tecnologías y Librerías Utilizadas
+* **Lenguaje:** Python 3
+* **Librerías:**
+  * `yfinance`: Extracción de datos financieros.
+  * `matplotlib`: Visualización de datos.
+  * `pyautogui` & `pyperclip`: Automatización de interfaz gráfica (GUI) y portapapeles.
+  * `webbrowser` & `time`: Automatización de navegador y control de flujos de tiempo.
 
-### 💻 Open Online / Abrir en línea
-Click to open and inspect the notebook directly in your browser:  
-👉 [**Open Project in VS Code Web**](https://vscode.dev/github/Kykyo2026/proyecto02_python_-vscode_email_python/blob/main/proyecto02.ipynb)
+---
 
-### 🐍 Run Locally / Ejecución Local
-1. Clone the repository / Clona el repositorio:
-   ```bash
-   git clone [https://github.com/Kykyo2026/proyecto02_python_-vscode_email_python.git](https://github.com/Kykyo2026/proyecto02_python_-vscode_email_python.git)
+## 🚀 Cómo Ejecutar / How to Run
+
+### 🌐 Abrir en línea (VS Code Web)
+Inspecciona el cuaderno directamente en tu navegador sin instalar nada:  
+[![Open in VS Code Web](https://img.shields.io/badge/Open_in-VS_Code_Web-blue?style=flat-square&logo=visualstudiocode)](https://github.dev/stiven-escobar/proyecto02_python_-vscode_email_python)
+
+### 💻 Ejecución Local
+```bash
+# 1. Clonar el repositorio
+git clone [https://github.com/stiven-escobar/proyecto02_python_-vscode_email_python.git](https://github.com/stiven-escobar/proyecto02_python_-vscode_email_python.git)
+
+# 2. Entrar al directorio
+cd proyecto02_python_-vscode_email_python
